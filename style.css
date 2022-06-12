@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar img {
+    width: 180px;
+    margin-left: -5px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: 780px;
+    margin-top: -25px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    margin: 2px 20px;
+    color: white;
+}
+
+.navbar ul li a:hover {
+    color: rgb(240, 177, 61);
+    text-shadow: 1px 1px 4px;
+}
+
+.navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 500px;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+#home {
+    display: flex;
+    width: 100%;
+    height: 330px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: -55px;
+}
+
+#home::before {
+    content: "";
+    background: url('../Images/bg.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 500px;
+    opacity: 0.8;
+}
+
+.h-primary h2{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgb(253, 171, 18);
+}
+
+.h-primary hr {
+    border: 1px solid rgb(253, 171, 18);
+    margin-bottom: 30px;
+}
+
+.btn {
+    margin: 20px;
+    padding: 7px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(240, 177, 61);
+}
+
+#home .para{
+    margin: 3px auto;
+}
+
+.btn:hover {
+    color: black;
+    background-color: white;
+    box-shadow: 2px 2px 6px black;
+}
+
+.h-prime {
+    margin-top: 100px;
+}
+
+.h-prime h2 {
+    font-size: 27px;
+    height: 15px;
+    width: 154px;
+    margin: auto;
+}
+
+
+.h-prime hr {
+    width: 11.3%;
+    margin: 30px auto;
+    border: 1px solid rgb(240, 177, 61);
+}
+
+#home .para{
+    /* width: 1000px; */
+    margin: 2px 200px;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 34px 0px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    margin: 25px;
+    align-items: center;
+    align-content: center;
+    box-shadow: 2px 2px 8px 3px;
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    cursor: pointer;
+}
+
+.box h2{
+    color: rgb(10, 10, 169);
+}
+
+.box p {
+    text-align: center;
+    text-shadow: 2px;
+    font-size: 19px;
+}
+
+.box img {
+    width: 170px;
+    padding: 4px;
+}
+
+.clients h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.clients hr {
+    width: 11.4%;
+    border: 1px solid rgb(240, 177, 61);
+    margin: auto;
+}
+
+#clients-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clients-container img {
+    width: 120px;
+    margin: 30px 20px;
+}
+
+/* Contact us Section */
+
+#contactus hr{
+    margin: 30px 671px;
+    width: 140px ;
+    border: 1px solid rgb(240, 177, 61);
+
+}
+
+.contact-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px auto;
+    width: 50%;
+}
+
+.form-group{
+    font-size: 23px;
+}
+
+.clients::after{
+    content:"";
+    background: url('../Images/contact.jpg') no-repeat center center/cover;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    top: 800px;
+    width: 100%;
+    opacity: 0.8;
+    z-index: -1;
+    height: 630px;
+    margin-top: 600px;
+}
+
+.form-group input{
+    padding: 6px;
+    border-radius: 3px;
+}
+
+/* footer */
+.copyright{
+    background-color: black;
+    color: white;
+}
+
+.copyright p {
+    text-align: center;
+    margin-top: 100px;
+}
